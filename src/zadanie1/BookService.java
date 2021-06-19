@@ -31,14 +31,14 @@ public class BookService {
         }
         return fantasyBooks;
     }
-    public List<Book> getBooksBefore2004() {
-        List<Book> booksBefore2004 = new ArrayList<>();
+    public List<Book> getBooksBefore1999() {
+        List<Book> booksBefore1999 = new ArrayList<>();
         for(Book book: books) {
             if (book.getYear() < 2004) {
-                booksBefore2004.add(book);
+                booksBefore1999.add(book);
             }
         }
-        return booksBefore2004;
+        return booksBefore1999;
     }
 
     public Book getCheapestBook() {

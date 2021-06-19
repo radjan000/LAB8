@@ -28,8 +28,8 @@ public class Main {
         System.out.println("FANTASY");
         System.out.println(bookService.getFantasyBooks());
 
-        System.out.println("2004");
-        System.out.println(bookService.getBooksBefore2004());
+        System.out.println("1999");
+        System.out.println(bookService.getBooksBefore1999());
 
         System.out.println("CHEAP");
         System.out.println(bookService.getCheapestBook());
